@@ -1,0 +1,81 @@
+
+****TASK***
+  Please submit 2 UI automation scenarios of your choice using the previous
+  website https://en.wikipedia.org/w/index.php?search
+  Please describe your scenarios and why you chose to implement them, and then
+  walk us through how you implemented them.
+
+
+----->  Exploratory Test Charter 1
+ * Test for the search button on Wikipedia:
+ * Feature under test: Search button functionality
+ * Test scope: Search functionality and results accuracy
+ * Test objective: Identify any errors or issues related to
+ * the search function and verify the accuracy of the search results
+ * Test team: QA analyst, software developer
+ * Test duration: 1 days, on May 7, 2023
+ * Reporting: Test report including any identified issues with
+ * search functionality and recommendations for improvement
+ */
+
+----> ADVİCE
+ During my testing of the search functionality on a search engine,
+ I found an issue where the search engine was not able to accurately
+ return search results for queries with multiple keywords. While searches
+ for a single keyword worked fine, searches with multiple keywords returned
+ articles that only contained some of the keywords, rather than all of them.
+
+To address this issue, I recommend the following:
+
+Review the search engine algorithm to ensure that it can accurately match
+articles to queries with multiple keywords.
+
+Implement a system that weights articles with all the keywords higher than
+those with only some of the keywords.
+
+Consider implementing machine learning or natural language processing tools
+to assist with the search process and ensure greater accuracy.
+
+Add a feedback mechanism for users to report any search-related issues,
+such as inaccurate or irrelevant search results.
+
+By taking these steps, you can ensure that all users have access to accurate
+and relevant search results, regardless of the number of keywords in their query,
+which will enhance the user experience and increase engagement with the search engine.
+
+
+
+--------> Exploratory Test Charter.
+ * Test for the language options in the contents menu on Wikipedia:
+ * Feature under test: Language options in the contents menu
+ * Test scope: Language selection options and functionality
+ * Test objective: Identify any issues or errors related to language
+ * selection and verify the accuracy of language translation in the contents menu
+ * Test team: QA analyst, linguist
+ * Test duration: 1 day, on May 7, 2023
+ * Reporting: Test report including any identified issues with language selection
+ * and translation accuracy in the contents menu, with recommendations for improvement.
+
+ADVİCE
+During my testing of the language options in the contents menu on Wikipedia, I found an
+issue where some parts of the page remained in English despite selecting a different language.
+This is likely due to incomplete translation of the content into the selected language.
+
+To address this issue, I recommend the following:
+
+Conduct a thorough review of all content on the site to ensure that it is accurately
+translated into all available languages.
+
+Implement a regular review process for new content to ensure that it is translated promptly
+and accurately.
+
+Add a feedback mechanism for users to report any language-related issues, such as
+incorrect translations or missing translations.
+
+Consider implementing machine learning or natural language processing tools to assist
+with the translation process and ensure greater accuracy.
+
+By taking these steps, you can ensure that all users have access to accurate,
+high-quality content in their preferred language, which will enhance the user
+experience and increase engagement with the site.
+
